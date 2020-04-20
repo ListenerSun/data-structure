@@ -3,7 +3,7 @@ package com.sqt.tree;
 /**
  * @Description:
  * @author: ListenerSun(男, 未婚) 微信:810548252
- * @Date: Created in 2019-12-29 20:57
+ * @Date: Created in 2019-12-29 2:57
  */
 public class BSTTest {
 
@@ -19,7 +19,7 @@ public class BSTTest {
 //        System.out.println(bst.deleteMax());
 //        System.out.println("/r/n");
         bst.deleteNode(6);
-        bst.deleteNode(1);
+        bst.deleteNode(8);
         bst.preOrder();
         System.out.println(bst.size);
     }
